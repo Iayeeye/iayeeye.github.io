@@ -1,0 +1,66 @@
+#wrapper   { margin-left: auto;
+             margin-right: auto;
+             width: 90%;
+             min-width: 900px;
+             max-width: 1280px;
+             box-shadow: 8px 8px;
+             background-color: #9400d3; }
+
+title      {       }             
+
+body       { font-family: Verdana, Arial, serif;
+             background-image: url("gooped.jpg");
+             background-color: #ff69b4; 
+             color: #90ee90; }
+
+#grad1     { height: 200px;
+             background-color: red; /* For browsers that do not support gradients */
+             background-image: linear-gradient(to bottom right, red, yellow); }       
+
+header     { font-family: Georgia, serif;
+             height: 200px;  
+             background-image: url("smell.jpg");
+             background-position: bottom;
+             background-size: 600px 240px;
+             
+             background-color: #fa8072; 
+             color: #aec3e3; }
+
+h1         { line-height: 200%;
+	       text-indent: 1em;
+             color: #ff00ff;
+             text-shadow: 1px 1px 1px #100; 
+             margin-bottom: 0;
+             text-align: center;
+             font-size: 3.3em;
+             padding-bottom: 10px;
+             border-top: 2px; }
+
+nav        { font-weight: bold;
+             text-shadow: 1px 1px 1px #100; 
+             color: #7b68ee; }
+
+dt         { font-family: Georgia, serif;
+             font-weight: bold;
+             font-size: 1.1em;
+             color: #dda0dd; }
+
+.category  { font-family: Georgia, serif;
+             font-weight: bold;
+             color: #ff1493 }
+
+.details   { padding-left: 20%;
+             padding-right: 20%; }
+
+nav a      { text-decoration: none; }
+
+footer     { text-align: center;
+             font-size: .60em;
+             font-style: italic;
+             padding-bottom: 10px;
+             border-top: 2px;
+             border-color: #7fffd4;
+             background-color: #663399; }
+
+img        { padding-left: 10px;
+             padding-right: 10px; }
